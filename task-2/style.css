@@ -1,0 +1,31 @@
+.book-search-result {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.book {
+    border: 1px solid #00000026;
+    border-radius: 5px;
+    padding: 20px;
+    background: #b9b9b9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book_title {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.book_authors {
+    font-size: 18px;
+    color: #1c1c1c;
+    text-decoration: underline;
+}
